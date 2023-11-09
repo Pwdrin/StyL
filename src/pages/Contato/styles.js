@@ -117,7 +117,7 @@ export const section = styled.div`
     display: inline-block;
     margin-top: 12px;
   }
-  .right-side .button input[type="button"] {
+  .right-side .button input[type="submit"] {
     color: #fff;
     width: 100px;
     font-size: 18px;
@@ -130,7 +130,7 @@ export const section = styled.div`
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .button input[type="button"]:hover {
+  .button input[type="submit"]:hover {
     background: #48ff00;
   }
   @media (max-width: 950px) {

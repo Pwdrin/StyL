@@ -49,7 +49,7 @@ const Contato = () => {
                   dúvida relacionada ao nosso site, envie uma mensagem. Será um
                   prazer ajudá-lo(a).
                 </p>
-                <form action="#">
+                <form action="send.php" method="post">
                   <div className="input-box">
                     <input type="text" placeholder="Digite seu nome" />
                   </div>
@@ -60,7 +60,7 @@ const Contato = () => {
                     <textarea placeholder="Digite sua mensagem"></textarea>
                   </div>
                   <div className="button">
-                    <input type="button" value="Enviar" />
+                    <input type="submit" value="Enviar" />
                   </div>
                 </form>
               </div>
