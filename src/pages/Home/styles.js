@@ -8,41 +8,41 @@ export const Container = styled.div`
 export const Normals1 = styled.div`
   background-color: #222327;
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
 `;
 export const Normals2 = styled.div`
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background: url("https://imgur.com/6PzodBH.jpg") no-repeat fixed center /
-    contain;
-  background-size: 1920px 2100px;
+width: 100vw;
+height: 130vh;
+top: 0;
+left: 0;
+overflow: hidden;
+background: url("https://imgur.com/6PzodBH.jpg") no-repeat fixed center / contain;
+background-size: 1920px;
 `;
 export const Normals3 = styled.div`
   background-color: #222327;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 `;
 export const Normals4 = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   top: 0;
   left: 0;
   overflow: hidden;
   background: url("https://imgur.com/lezOAUg.jpg") no-repeat fixed center /
     contain;
   background-size: 1900px;
+  
 `;
 export const Normals5 = styled.div`
   background-color: #222327;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 `;
 export const Normals6 = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -130,10 +130,10 @@ export const wrap = styled.div`
 `;
 
 export const h1 = styled.h1`
+text-align: center;
     font-style: italic;
     cursor: pointer;
     font-size: 350px;
-    padding-left: 500px;
     margin-top: 40px;
     margin-bottom: 450px;
     color: transparent;

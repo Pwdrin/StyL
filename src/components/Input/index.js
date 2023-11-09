@@ -1,14 +1,18 @@
 import React from "react";
-import * as C from "./styles";
+import './style.css'
 
-const Input = ({ type, placeholder, value, onChange }) => {
+const Input = ({ type, placeholder,minLength, value, onChange, icon }) => {
   return (
-    <C.Input
-      value={value}
-      onChange={onChange}
-      type={type}
-      placeholder={placeholder}
-    />
+    <div className="input-container">
+      {icon && <span className="input-icon">{icon}</span>}
+      <input
+      minLength={minLength}
+        type={type}
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+      />
+    </div>
   );
 };
 

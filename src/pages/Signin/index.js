@@ -9,7 +9,6 @@ import { IoIosLock, IoIosMail } from "react-icons/io";
 const Signin = () => {
   const { signin } = useAuth();
   const navigate = useNavigate();
-
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const [error, setError] = useState("");
@@ -19,7 +18,6 @@ const Signin = () => {
       setError("Preencha todos os campos");
       return;
     }
-
     const res = signin(email, senha);
 
     if (res) {
@@ -35,19 +33,20 @@ const Signin = () => {
       <C.Content>
         <C.Label>Login</C.Label>
         <Input
-          type="email"
-          placeholder="Digite seu E-mail"
-          value={email}
-          onChange={(e) => [setEmail(e.target.value), setError("")]}
-          icon={<IoIosMail />}
-        />
-        <Input
-          type="password"
-          placeholder="Digite sua Senha"
-          value={senha}
-          onChange={(e) => [setSenha(e.target.value), setError("")]}
-          icon={<IoIosLock />}
-        />
+  type="email"
+  placeholder="Digite seu E-mail"
+  value={email}
+  onChange={(e) => { setEmail(e.target.value); setError(""); }}
+  icon={<IoIosMail size={20} color='#3ec20a' />}
+/>
+<Input
+  type="password"
+  placeholder="Digite sua Senha"
+  minLength={6}
+  value={senha}
+  onChange={(e) => { setSenha(e.target.value); setError(""); }}
+  icon={<IoIosLock size={20} color='#3ec20a' />}
+/>
         <C.labelError>{error}</C.labelError>
         <Button Text="Entrar" onClick={handleLogin} />
         <C.LabelSignup>
