@@ -22,7 +22,7 @@ const Home = () => {
             <h2>I feel like I'm Gucci Mane in 2006</h2>
           </C.Normals4>
           <C.Normals5>
-            <h3 style={{display:'flex', flexDirection: 'column',}}>Sua roupa é a tela, seu estilo é a pintura.<Button href={'./Contato'} text='Saiba Mais'/></h3>
+            <h3 style={{display:'flex', flexDirection: 'column',}}>Sua roupa é a tela, seu estilo é a pintura.<Button href={'./Shop'} text='Saiba Mais'/></h3>
           </C.Normals5>
           <C.Normals6>
             <h2>Black Lives Matter</h2>

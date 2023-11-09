@@ -49,7 +49,7 @@ const Signin = () => {
 />
         <C.labelError>{error}</C.labelError>
        
-        <Button href={'./Contato'} text='Logar'/>
+        <Button href={'./Home'} text='Logar'/>
         
         
         <C.LabelSignup>
