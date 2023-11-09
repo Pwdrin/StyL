@@ -17,7 +17,6 @@ const Home = () => {
           </C.Normals2>
           <C.Normals3>
             <h3 style={{display:'flex', flexDirection: 'column',}}>Drip é o estilo que fala sem palavras.<Button href={'./Contato'} text='Entre Em Contato'/></h3>
-            
           </C.Normals3>
           <C.Normals4>
             <h2>I feel like I'm Gucci Mane in 2006</h2>

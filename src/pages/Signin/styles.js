@@ -58,6 +58,3 @@ export const Strong = styled.strong`
   }
 `;
 
-// export const Input = styled.icon`
-
-// `;

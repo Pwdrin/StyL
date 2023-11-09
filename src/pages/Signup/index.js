@@ -63,7 +63,7 @@ const Signup = () => {
           icon={<IoIosLock size={20} color='#3ec20a' />}
         />
         <C.labelError>{error}</C.labelError>
-        <Button Text="Regitrar-se" onClick={handleSignup} />
+        <Button Type='text' text='Cadrastar' onClick={handleSignup} />
         <C.LabelSignin>
           Já tem uma conta?
           <C.Strong>

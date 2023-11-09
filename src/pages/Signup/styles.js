@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-  height: 100vh;
-  background-image: url("https://media.discordapp.net/attachments/916163124682436679/1171129322296320071/background.login.jpg?ex=655b8e2c&is=6549192c&hm=55ac23b7d28c65725cb13b1c4053dae962f89ab0db32150a565090f29bcc1e96&=&width=781&height=488");
-  background-repeat: no-repeat;
-  background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+height: 100vh;
+background-image: url("https://media.discordapp.net/attachments/916163124682436679/1171129322296320071/background.login.jpg?ex=655b8e2c&is=6549192c&hm=55ac23b7d28c65725cb13b1c4053dae962f89ab0db32150a565090f29bcc1e96&=&width=781&height=488");
+background-repeat: no-repeat;
+background-size: cover;
 `;
 
 export const Content = styled.div`
-  gap: 15px;
+gap: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
