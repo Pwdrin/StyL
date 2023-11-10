@@ -2,7 +2,6 @@ import React from "react";
 import * as C from "./styles";
 import { Link } from "react-router-dom";
 
-
 const Header = () => {
   return (
     <C.Header>
@@ -18,16 +17,16 @@ const Header = () => {
         </C.Logo>
         <C.NavLink>
           <ol>
-            <a href='/Home'>Home</a>
+            <a href="/Home">Home</a>
           </ol>
           <ol>
-            <a href='/Shop'>Loja</a>
+            <a href="/Shop">Loja</a>
           </ol>
           <ol>
-            <a href='.../pages/Contato'>Social</a>
+            <a href="/Social">Social</a>
           </ol>
           <ol>
-          <a href='/Contato'>Contato</a>
+            <a href="/Contato">Contato</a>
           </ol>
         </C.NavLink>
       </C.Nav>

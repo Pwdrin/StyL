@@ -5,6 +5,8 @@ import Home from "../pages/Home";
 import Signin from "../pages/Signin";
 import Signup from "../pages/Signup";
 import Contato from "../pages/Contato";
+import Shop from "../pages/Shop";
+import Social from "../pages/Social";
 const Private = ({ Item }) => {
   const { signed } = useAuth();
 
@@ -16,11 +18,13 @@ const RoutesApp = () => {
     <BrowserRouter>
       <Fragment>
         <Routes>
-          <Route exact path="/home" element={<Private Item={Home} />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/" element={<Signin />} />
-          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/Signup" element={<Signup />} />
           <Route path="*" element={<Signin />} />
-          <Route path="/contato" element={<Contato />} />
+          <Route path="/Social" element={<Social />} />
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/Contato" element={<Contato />} />
         </Routes>
       </Fragment>
     </BrowserRouter>

@@ -10,13 +10,14 @@ export const Normals1 = styled.div`
   height: 130vh;
 `;
 export const Normals2 = styled.div`
-width: 100vw;
-height: 130vh;
-top: 0;
-left: 0;
-overflow: hidden;
-background: url("https://imgur.com/6PzodBH.jpg") no-repeat fixed center / contain;
-background-size: 1920px;
+  width: 100vw;
+  height: 130vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background: url("https://imgur.com/6PzodBH.jpg") no-repeat fixed center /
+    contain;
+  background-size: 1920px;
 `;
 export const Normals3 = styled.div`
   background-color: #222327;
@@ -32,7 +33,6 @@ export const Normals4 = styled.div`
   background: url("https://imgur.com/lezOAUg.jpg") no-repeat fixed center /
     contain;
   background-size: 1900px;
-  
 `;
 export const Normals5 = styled.div`
   background-color: #222327;
@@ -106,7 +106,6 @@ export const wrap = styled.div`
     }
   }
 
-  /* Estilos responsivos */
   @media (max-width: 768px) {
     h2 {
       font-size: 40px;
@@ -177,5 +176,4 @@ text-align: center;
 export const StyledImage = styled.img`
   max-width: 100%;
   height: auto;
-  /* Outros estilos conforme necessário */
 `;

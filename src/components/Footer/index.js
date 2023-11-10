@@ -13,17 +13,17 @@ const Footer = () => {
       <C.Nav>
         <C.NavIcons>
           <ol>
-            <a>
+            <a href="https://www.instagram.com/legit.exe/">
               <RiInstagramFill />
             </a>
           </ol>
           <ol>
-            <a>
+            <a href="https://i.pinimg.com/564x/cd/62/7c/cd627c87cfe9612e9eac32de491a4c5e.jpg">
               <RiPinterestFill />
             </a>
           </ol>
           <ol>
-            <a>
+            <a href="https://twitter.com/ihLegit">
               <RiTwitterXFill />
             </a>
           </ol>
