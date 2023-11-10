@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import useAuth from "../../hooks/useAuth";
@@ -6,9 +6,35 @@ import * as C from "./styles";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { IoIosCall, IoIosMail, IoIosPin } from "react-icons/io";
-
+import axios from "axios";
 const Contato = () => {
   const { signout } = useAuth();
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = () => {
+    if (name.length === 0) {
+      alert("Não deixe o nome vazio");
+    } else if (email.length === 0) {
+      alert("Não deixe o email vazio");
+    } else if (message.length === 0) {
+      alert("Não deixe a mensagem vazia");
+    } else {
+      const url = "http://localhost/send.php";
+
+      let fData = new FormData();
+      fData.append("name", name);
+      fData.append("email", email);
+      fData.append("message", message);
+
+      axios
+        .post(url, fData)
+        .then((response) => alert(response.data))
+        .catch((error) => alert(error));
+    }
+  };
 
   return (
     <>
@@ -49,18 +75,43 @@ const Contato = () => {
                   dúvida relacionada ao nosso site, envie uma mensagem. Será um
                   prazer ajudá-lo(a).
                 </p>
-                <form action="send.php" method="post">
+                <form method="post">
                   <div className="input-box">
-                    <input type="text" placeholder="Digite seu nome" />
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Digite seu nome"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                    />
                   </div>
                   <div className="input-box">
-                    <input type="text" placeholder="Digite seu email" />
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
                   </div>
                   <div className="input-box message-box">
-                    <textarea placeholder="Digite sua mensagem"></textarea>
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Digite sua mensagem"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                    ></textarea>
                   </div>
                   <div className="button">
-                    <input type="submit" value="Enviar" />
+                    <input
+                      type="submit"
+                      id="send"
+                      value="Enviar"
+                      onClick={handleSubmit}
+                    />
                   </div>
                 </form>
               </div>

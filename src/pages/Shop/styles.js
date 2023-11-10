@@ -114,7 +114,7 @@ export const Shop = styled.div`
   }
 
   .description-clothes {
-    border-radius: 10px;
+    border-radius: 1px;
     background-color: #131212;
     text-align: center;
     display: flex;
