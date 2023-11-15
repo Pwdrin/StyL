@@ -23,19 +23,19 @@ export const CarouselContainer = styled.div`
     align-items: center;
     background-size: cover;
     background-position: center;
-    animation: slide 80s infinite;
+    animation: slide 50s infinite;
   }
 
   .slide1 {
-    background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?ex=655f9e31&is=654d2931&hm=39216e4748942a51e8180e219d35d700b01b86f57156386f379c4f1cc8009bc1&");
+    background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?");
   }
 
   .slide2 {
-    background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?ex=655f9e31&is=654d2931&hm=39216e4748942a51e8180e219d35d700b01b86f57156386f379c4f1cc8009bc1&");
+    background-image: url("https://media.discordapp.net/attachments/1051225985443430481/1173285839359463494/tyL_2.png");
   }
 
   .slide3 {
-    background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?ex=655f9e31&is=654d2931&hm=39216e4748942a51e8180e219d35d700b01b86f57156386f379c4f1cc8009bc1&");
+    background-image: url("https://media.discordapp.net/attachments/1051225985443430481/1174362321062215782/tyL_5.png");
   }
 
   @keyframes slide {
@@ -114,7 +114,7 @@ export const Shop = styled.div`
   }
 
   .description-clothes {
-    border-radius: 1px;
+    border-radius: 15px;
     background-color: #131212;
     text-align: center;
     display: flex;

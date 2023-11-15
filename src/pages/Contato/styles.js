@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const contact = styled.div`
   background: #222327;
   min-height: 100vh;
