@@ -9,11 +9,7 @@ const Header = () => {
         <C.Logo>
           <Link to="/Home" style={{ textDecoration: "none" }}>
             <C.LogoImage
-<<<<<<< HEAD
-              src="https://media.discordapp.net/attachments/916163124682436679/1171138551782584390/logbat.png?ex=655b96c5&is=654921c5&hm=9f1e6a5f31cfd8c5b3b026c35ff4eac383dd83a7609642b7781a178a5cce9429&=&width=488&height=488"
-=======
               src="https://cdn.discordapp.com/attachments/852703179891015711/1287442565926228039/morcegos.png?ex=66f18fd3&is=66f03e53&hm=b0535b42e1c1823c0e4bf1804c6682003bd0651cd6d841b6c2a1b54caadc6ba2&"
->>>>>>> master
               alt="logo"
             />
             <C.LogoText>$TyL</C.LogoText>
