@@ -27,17 +27,6 @@ export const CarouselContainer = styled.div`
   }
 
   .slide1 {
-<<<<<<< HEAD
-    background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?");
-  }
-
-  .slide2 {
-    background-image: url("https://media.discordapp.net/attachments/1051225985443430481/1173285839359463494/tyL_2.png");
-  }
-
-  .slide3 {
-    background-image: url("https://media.discordapp.net/attachments/1051225985443430481/1174362321062215782/tyL_5.png");
-=======
     background-image: url("https://media.discordapp.net/attachments/852703179891015711/1287442313416675429/tyL_5.png?ex=66f18f97&is=66f03e17&hm=5b7df5d78fe6a51a710fecbee064b61be13d85c31c9b639af15afb0ffd151ee3&=&format=webp&quality=lossless&width=1440&height=305");
   }
 
