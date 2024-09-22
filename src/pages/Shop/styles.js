@@ -36,7 +36,6 @@ export const CarouselContainer = styled.div`
 
   .slide3 {
     background-image: url("https://cdn.discordapp.com/attachments/852703179891015711/1287442406027038868/tyL.png?ex=66f18fad&is=66f03e2d&hm=f2d0086f6ce7e6d624183e718ec776bcea1f0d1adc27cfb39819e561702765e0&");
->>>>>>> master
   }
 
   @keyframes slide {
