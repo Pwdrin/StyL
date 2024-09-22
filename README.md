@@ -8,4 +8,4 @@ Projeto feito para um trabalho da faculdade
 " npm install "
 
 " npm run "
->>>>>>> master
+
