@@ -27,6 +27,7 @@ export const CarouselContainer = styled.div`
   }
 
   .slide1 {
+<<<<<<< HEAD
     background-image: url("https://cdn.discordapp.com/attachments/1051225985443430481/1172246034177593455/tyL.png?");
   }
 
@@ -36,6 +37,17 @@ export const CarouselContainer = styled.div`
 
   .slide3 {
     background-image: url("https://media.discordapp.net/attachments/1051225985443430481/1174362321062215782/tyL_5.png");
+=======
+    background-image: url("https://media.discordapp.net/attachments/852703179891015711/1287442313416675429/tyL_5.png?ex=66f18f97&is=66f03e17&hm=5b7df5d78fe6a51a710fecbee064b61be13d85c31c9b639af15afb0ffd151ee3&=&format=webp&quality=lossless&width=1440&height=305");
+  }
+
+  .slide2 {
+    background-image: url("https://media.discordapp.net/attachments/852703179891015711/1287442624512397422/tyL_2.png?ex=66f18fe1&is=66f03e61&hm=281406dbf2ca962fa4efb22097d6f74b568a118d082b604906bcbdfd7409ac0c&=&format=webp&quality=lossless&width=1440&height=305");
+  }
+
+  .slide3 {
+    background-image: url("https://cdn.discordapp.com/attachments/852703179891015711/1287442406027038868/tyL.png?ex=66f18fad&is=66f03e2d&hm=f2d0086f6ce7e6d624183e718ec776bcea1f0d1adc27cfb39819e561702765e0&");
+>>>>>>> master
   }
 
   @keyframes slide {
